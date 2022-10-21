@@ -1,0 +1,53 @@
+.red{
+    background-color: rebeccapurple;
+    height: 18%;
+}
+#dr{
+    width: 115;
+    line-height: 100;
+    margin-top: 1%;
+}
+.BTN{
+    text-align: center;
+    margin-top: -2%;
+    top:50px;
+    border: gold;
+}
+.BTN:hover{
+        background-color: rebeccapurple;
+        color:white;
+}
+
+.cool{
+    background-color: gold;
+    color: rebeccapurple;
+}
+#lol{
+    color: rebeccapurple;
+}
+h1{
+    color:gold;
+    text-align: center;
+    text-decoration: underline rebeccapurple;
+}
+h5{
+    color: rebeccapurple;
+    text-align: center;
+}
+.rogue{
+    background-color: rebeccapurple;
+    height: 13%;
+}
+#her{
+    color:gold;
+    text-align: center;
+}
+.bg-custom {
+    background-color:rebeccapurple;
+}
+.logo{
+    width: 200px;
+    left: 30px;
+    top: -30px;
+    position:relative;
+}

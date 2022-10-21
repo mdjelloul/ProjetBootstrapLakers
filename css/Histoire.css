@@ -1,0 +1,60 @@
+.red{
+    background-color: rebeccapurple;
+    height: 18%;
+}
+#dr{
+    width: 115;
+    line-height: 100;
+    margin-top: 1%;
+}
+.BTN{
+    text-align: center;
+    margin-top: -2%;
+    border: gold;
+}
+.BTN:hover{
+    background-color: rebeccapurple;
+    color:white;
+}
+  .cool{
+    background-color: gold;
+    color: rebeccapurple;
+  }
+  #lol{
+    color: rebeccapurple;
+  }
+#dr{
+    width: 115;
+    line-height: 100;
+}
+#a{
+    text-align: center;
+    color: gold;
+}
+
+p{ 
+        text-align: center ;
+}
+li{
+    color:rebeccapurple;
+    text-decoration: underline gold;
+}
+h1{
+    color: gold;
+    text-decoration: underline rebeccapurple;
+}
+#f{
+    color: gold;
+    background-color:rebeccapurple;
+}
+.bg-custom {
+    background-color:rebeccapurple;
+  }
+.logo {
+    width:200px;
+    left:50px;
+    position:absolute;
+    top:90px
+    
+}
+

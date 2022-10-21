@@ -1,0 +1,248 @@
+  .Carte::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+        var(--rotate)
+        , #fcd600 43%, #9806ec);
+        position: absolute;
+        z-index: -1;
+        top: -1%;
+        left: -2%;
+        animation: spin 2.5s linear infinite;
+  }
+  
+  .Carte::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+        var(--rotate)
+        ,  #fcd600 43%, #9806ec);
+        opacity: 1;
+      transition: opacity .5s;
+      animation: spin 2.5s linear infinite;
+     
+   
+  }
+  
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+.Carte{
+    width: var(--Carte-width);
+  height: var(--Carte-height);
+  padding: 3px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: rgba(133, 8, 235, 0);
+  cursor: pointer;
+  font-family: cursive;
+}
+.Carte:hover {
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.5);
+
+}
+
+.bg-custom {
+    background-color:rebeccapurple;
+  }
+
+.Trophée {
+    float: right;
+    position: absolute;
+    top: 50px;
+    left: 1500px;
+  }
+
+.TrophéeMVP {
+    float: left;
+    position: absolute;
+    top: 50px;
+    right: 1500px;
+  }
+
+.decoration {
+    text-decoration: none;
+    color: white;
+  }
+.Jerry {
+  float: right;
+  position: absolute;
+  top:450px;
+  left: 340px;
+}
+
+.Jerry2 {
+  float: right;
+  position: absolute;
+  top:860px;
+  left: 360px;
+  
+}
+.Wilt {
+  float: right;
+  position: absolute;
+  top:450px;
+  left: 820px;
+}
+.Wilt2 {
+    float: right;
+    position: absolute;
+    top:860px;
+    left: 820px;
+    
+  }
+
+
+.Baylor {
+  float: left;
+  position: absolute;
+  top:450px;
+  left: 1300px;
+
+}
+.Baylor2 {
+    float: right;
+    position: absolute;
+    top:860px;
+    left: 1300px;
+    
+  }
+.Kareem {
+  float: right;
+  position: absolute;
+  top:1000px;
+  left: 350px;
+}
+.Kareem2 {
+    float: right;
+    position: absolute;
+    top:1400px;
+    left: 350px;
+    
+  }
+.Magic {
+  float: right;
+  position: absolute;
+  top:1000px;
+  left: 820px;
+}
+.Magic2 {
+    float: right;
+    position: absolute;
+    top:1400px;
+    left: 820px;
+  }
+.Worthy {
+  float: left;
+  position: absolute;
+  top:1000px;
+  left: 1300px;
+
+}
+.Worthy2 {
+    float: right;
+    position: absolute;
+    top:1400px;
+    left: 1300px;
+  }
+
+.Goodrich {
+  float: right;
+  position: absolute;
+  top:1550px;
+  left: 350px;
+}
+.Goodrich2 {
+    float: right;
+    position: absolute;
+    top:1950px;
+    left: 355px;
+  }
+.Wilkes {
+  float: right;
+  position: absolute;
+  top:1550px;
+  left: 820px;
+}
+.Wilkes2 {
+    float: right;
+    position: absolute;
+    top:1950px;
+    left: 820px;
+  }
+.Shaq {
+  float: left;
+  position: absolute;
+  top:1550px;
+  left: 1300px;
+
+}
+.Shaq2 {
+    float: right;
+    position: absolute;
+    top:1950px;
+    left: 1310px;
+  }
+.Kobe {
+  float: right;
+  position: absolute;
+  top:2100px;
+  left: 350px;
+}
+.Kobe2 {
+    float: right;
+    position: absolute;
+    top:2480px;
+    left: 360px;
+  }
+.Gasol {
+  float: right;
+  position: absolute;
+  top:2100px;
+  left: 820px;
+}
+.Gasol2 {
+    float: right;
+    position: absolute;
+    top:2490px;
+    left: 840px;
+}
+#f{
+    color: gold;
+    background-color:rebeccapurple;
+}
+.BTN{
+  text-align: center;
+  margin-top: -2%;
+  border: gold;
+}
+.cool{
+  color: rebeccapurple;
+  background-color: gold;
+}
+
+.dropdown-item{
+  color: rebeccapurple;
+
+}

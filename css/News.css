@@ -1,0 +1,55 @@
+.Lebron{
+  float: right;
+  position: absolute;
+  top:450px;
+  left: 340px;
+}
+.LBJDAV{
+  float: left;
+  position: absolute;
+  top:450px;
+  left: 1300px;
+
+}
+.Rob{
+  float: right;
+  position: absolute;
+  top:1000px;
+  left: 350px;
+}
+.LBJ{
+  float: right;
+  position: absolute;
+  top:1000px;
+  left: 820px;
+}
+.Russ{
+  float: left;
+  position: absolute;
+  top:1000px;
+  left: 1300px;
+}
+.Davis {
+  float: right;
+  position: absolute;
+  top:450px;
+  left: 820px;
+}
+.BTN{
+  text-align: center;
+  margin-top: -2%;
+}
+.BTN:hover{
+  background-color:rebeccapurple;
+  color:white;
+}
+
+.cool{
+  color:gold;
+  background-color: rebeccapurple;
+ 
+}
+.dropdown-item{
+  color: rebeccapurple;
+
+}

@@ -1,0 +1,75 @@
+.Image{
+    float: left;
+  position: absolute;
+  top:30px;
+  left: 1150px;
+}
+.Texte {
+    float: right;
+    position: absolute;
+    top: 410px;
+    left: 1700px;
+  }
+.Bio {
+    float: right;
+    position: absolute;
+    top: 490px;
+    left: 800px;
+
+}
+.ImageBio {
+    float: right;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+    
+.Bio2 {
+    float: right;
+    position: absolute;
+    top: 800px;
+}
+.ImageBio2 {
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 1150px;
+
+}
+.Palmarès{
+    float: right;
+    position: absolute;
+    top: 1300px;
+}
+
+.TrophéeMVP {
+    float: right;
+    position: absolute;
+    top: 1380px;
+    left: 400px;
+}
+.TrophéeMVPFinal{
+    float: right;
+    position: absolute;
+    top: 1430px;
+    left: 455px;
+}
+
+.TrophéeNBA {
+    float: right;
+    position:absolute;
+    top: 1470px;
+    left:520px;
+}
+.TrophéeMVPFinal{
+    float: right;
+    position: absolute;
+    top: 1430px;
+    left: 435px;
+}
+.HallOfFame{
+    float: right;
+    position:absolute;
+    top: 1555px;
+    left:345px;
+  }
