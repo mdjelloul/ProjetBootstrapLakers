@@ -1,5 +1,6 @@
 <?php
 include "Login.php";
+include ""
 $id=$_GET["id"];
 
 $req = $bdd->prepare("select * from news where idNews=?");

@@ -5,9 +5,9 @@ include "entête.php"
 <head>
         <title>Lakers</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="../cssboot/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/Index.css">
-        <link rel="icon" href="../images/Logo.png">
+        <link rel="stylesheet" href="cssboot/bootstrap.min.css">
+        <link rel="stylesheet" href="css/Index.css">
+        <link rel="icon" href="images/Logo.png">
 </head>
 <body>
     
